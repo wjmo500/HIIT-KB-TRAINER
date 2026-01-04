@@ -1,0 +1,13 @@
+# Extract the downloaded file
+tar -xzf hiit-kb-trainer.tar.gz
+
+# Navigate into the project
+cd home/user/flutter_app
+
+# Initialize and push to YOUR repo
+git init
+git add .
+git commit -m "Initial commit: HIIT KB Trainer app"
+git branch -M main
+git remote add origin https://github.com/wjmo500/HIIT-KB-TRAINER.git
+git push -u origin main
